@@ -5,8 +5,8 @@
   4、git config --global core.editor "vim" 设置git使用vim
 
 注意事项
-  1、安装前请自行备份好home目录下的.vimrc 和 .vim
-  2、让linux支持256色显示  在~/.bashrc文件里添加一下代码 然后让文件生效：source ~/.bashrc
+1、安装前请自行备份好home目录下的.vimrc 和 .vim
+2、让linux支持256色显示  在~/.bashrc文件里添加一下代码 然后让文件生效：source ~/.bashrc
   
     if [ -e /usr/share/terminfo/x/xterm-256color ]; then
             export TERM='xterm-256color'
